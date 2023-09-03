@@ -1,0 +1,219 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: large;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+#navbar ul{
+    display:flex;
+    font-family: 'Henny Penny', cursive;
+    font-family: 'Source Code Pro', monospace;
+    background-color: transparent;
+    }
+    #navbar ul li {
+        /* color: white*/
+    list-style:none;
+    font-style: 1.3rem;
+    align-items: center;
+    background-color: transparent;
+    }
+     #navbar ul li a{
+    color: white;
+    display:block;
+    padding: 3px 22px;
+    border-radius: 20px;
+    text-decoration: none;
+    }
+    #navbar ul li a:hover{
+    color: black;
+    background-color: white;
+    } 
+
+#navbar{
+    position:relative;
+    top: 0%;
+    left: 0%;
+    color: transparent;
+    
+}
+.fa-solid fa-house{
+    color: #ffff;
+}
+
+nav
+{
+   background: url('s.jpg');
+    height: 40%;
+    width: 110%;
+
+    position: absolute;
+    color: white;
+    display: grid;
+    grid-template-columns: 30% 60%;
+    column-gap: 10%;
+    padding: 0% 5%;
+}
+    .array-inputs
+    {
+        display: grid;
+        grid-template-columns: 60% 40%;
+        place-content: center;
+        padding: 5% 10%;
+        
+    }
+        #a_size
+        {
+            padding: 5% 10%;
+            font-family: 'Henny Penny', cursive;
+            font-family: 'Source Code Pro', monospace;
+        }
+        #a_speed
+        {
+            padding: 5% 15%;
+            font-family: 'Henny Penny', cursive;
+            font-family: 'Source Code Pro', monospace;
+        }
+        #a_generate
+        {
+            background-color: rgb(104, 74, 104);
+            border-radius: 5px;
+            outline: none;
+            color: white;
+            padding: 4% 0% 0% 0%;
+            padding-left: 0%;
+            text-align: center;
+            font-family: 'Henny Penny', cursive;
+            font-family: 'Source Code Pro', monospace;
+        
+            &:hover
+            {
+                cursor: pointer;
+            }
+        }
+    .header_right
+    {
+        display: flex;
+        flex-direction: column;
+    }
+        .nav-heading
+        {
+            display: inline-block;
+            text-align: center;
+            font-size: xxx-large;
+            padding: 3% 0%;
+            font-family: 'Henny Penny', cursive;
+            font-family: 'Source Code Pro', monospace;
+        }
+        .algos
+        {
+            display: grid;
+            grid-template-columns: repeat($no_algos,(100%/$no_algos));
+            place-content: center;
+            padding: 2% 0%;
+            font-family: 'Henny Penny', cursive;
+            font-family: 'Source Code Pro', monospace;
+            button
+            {
+                background-color: transparent;
+                border: none;
+                color: white;
+                outline: none;
+                padding: 5% 0%;
+                font-size: x-large;
+                &:hover
+                {
+                    background-color: blue;
+                    cursor: pointer;
+                }
+            }
+
+            .butt_locked
+            {
+                background-color: transparent;
+                cursor: pointer;
+                &:hover
+                {
+                    background-color: transparent;
+                    cursor: pointer;
+                }
+            }
+            .butt_selected
+            {
+                background-color: white;
+                color:green;
+                &:hover
+                {
+                    background-color: white;
+                    cursor: pointer;
+                }
+            }
+            .butt_unselected
+            {
+                &:hover
+                {
+                    background-color: blue;
+                    cursor: pointer;
+                }
+            }
+        }
+  
+
+section
+{
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+}
+    #Info_Cont1
+    {
+        padding: 120% 30%; 
+    }
+    #array_container
+    {
+        display: flex;
+        width: 100%;
+        height: 70vh;
+        padding:32%;
+        
+        /* padding-right: 60%;
+        padding-top: 60%;
+        padding-bottom: 60%; */
+    }
+    #Info_Cont2
+    {
+        /* padding: 10%; */
+    }
+
+
+.hide
+{
+    display: none;
+}
+#abc
+{
+  padding-bottom: -60%;
+}
+
+.sort-table tr th td{
+        border:1px solid black;
+        border-color: black;
+        text-align: left;
+        margin-right: 35%;
+        margin-left: 38%;
+      
+}
+
+/*
+@media (max-width: 480px)//Mobiles
+{
+    
+}
+@media (min-width: 481px) and (max-width: 1250px)//Tablets
+{
+}
+@media (min-width: 1251px)//Laptops and up
+{
+}
+*/
